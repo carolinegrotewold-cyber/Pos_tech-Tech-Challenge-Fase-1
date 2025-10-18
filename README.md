@@ -5,7 +5,6 @@ Docs (Swagger):** https://cgrotewold.onrender.com/docs
 
 API em **FastAPI** que raspa o site **Books to Scrape**, salva em CSV e expõe rotas de consulta, busca, estatísticas e administração (JWT).
 
-## Como rodar localmente
 ```bash
 # criar venv e instalar
 python -m venv .venv && source .venv/bin/activate

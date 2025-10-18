@@ -1,13 +1,13 @@
-# Arquitetura — CGROTEWO (Books API)
+Arquitetura — CGROTEWO (Books API)
 
-**URL pública:** https://cgrotewold.onrender.com  
-**Docs (Swagger):** https://cgrotewold.onrender.com/docs
+URL pública:** https://cgrotewold.onrender.com  
+Docs (Swagger):** https://cgrotewold.onrender.com/docs
 
 API em **FastAPI** que realiza **web scraping** no *Books to Scrape*, persiste em **CSV** e expõe endpoints de consulta, busca, estatísticas e administração (**JWT**).
 
 ---
 
-## 1) Visão Geral
+1) Visão Geral
 
 ```mermaid
 flowchart LR

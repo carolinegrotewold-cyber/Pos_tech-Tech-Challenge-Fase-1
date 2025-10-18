@@ -8,9 +8,6 @@ API em **FastAPI** que realiza **web scraping** no *Books to Scrape*, persiste e
 ---
 
 1) Visão Geral
-
-```mermaid
-flowchart LR
     A[Books to Scrape] -->|HTTP GET| B[Scraper (requests + BeautifulSoup)]
     B --> C[(CSV: data/books.csv)]
     C --> D[FastAPI - Endpoints Públicos]
